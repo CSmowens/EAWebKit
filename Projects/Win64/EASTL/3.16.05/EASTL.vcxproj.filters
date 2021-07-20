@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="doc">
+      <UniqueIdentifier>{DFB4099A-82DA-E6E3-65E3-1092D1C3EC8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{0FEB36D4-DED9-B510-4A82-8CE6435F7E81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\EASTL">
+      <UniqueIdentifier>{4B5854ED-19F0-ED8E-6D0A-D48C66D5B675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\EASTL\bonus">
+      <UniqueIdentifier>{3E95A82E-0C85-4D1B-4363-27FAFFED2038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\EASTL\internal">
+      <UniqueIdentifier>{6B1D0C93-4AAB-295E-74F4-69533445E65A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts">
+      <UniqueIdentifier>{5A85C5D6-CF62-A432-DADB-C2831F0F295F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\CMake">
+      <UniqueIdentifier>{1CD19803-62CF-4826-077D-6100E2BC36F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts\nn">
+      <UniqueIdentifier>{CE2886E2-44E6-D507-FA69-5DA2FB9A19E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{F438CD36-9A9B-08FA-222C-0DC9EBFE35EB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\EASTL\3.16.05\EASTL.build" />
+    <None Include="..\..\..\..\EASTL\3.16.05\Manifest.xml" />
+    <None Include="..\..\..\..\EASTL\3.16.05\doc\EASTL.natvis" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\scripts\EASTL_strip.py" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\scripts\initialize.xml" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\scripts\make_public.bat" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\scripts\CMake\CommonCppFlags.cmake" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\scripts\nn\preferences.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\algorithm.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\allocator.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\allocator_malloc.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\any.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\array.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\bitset.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\bitvector.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\chrono.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\core_allocator.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\core_allocator_adapter.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\deque.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\finally.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\fixed_allocator.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\fixed_function.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\fixed_hash_map.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\fixed_hash_set.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\fixed_list.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\fixed_map.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\fixed_set.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\fixed_slist.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\fixed_string.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\fixed_substring.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\fixed_vector.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\functional.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\hash_map.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\hash_set.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\heap.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\initializer_list.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\intrusive_hash_map.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\intrusive_hash_set.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\intrusive_list.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\intrusive_ptr.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\iterator.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\linked_array.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\linked_ptr.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\list.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\map.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\memory.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\meta.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\numeric.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\numeric_limits.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\optional.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\priority_queue.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\queue.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\random.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\ratio.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\safe_ptr.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\scoped_array.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\scoped_ptr.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\segmented_vector.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\set.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\shared_array.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\shared_ptr.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\slist.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\sort.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\span.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\stack.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\string.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\string_hash_map.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\string_map.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\string_view.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\tuple.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\type_traits.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\unique_ptr.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\unordered_map.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\unordered_set.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\utility.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\variant.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\vector.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\vector_map.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\vector_multimap.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\vector_multiset.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\vector_set.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\version.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\weak_ptr.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\bonus\adaptors.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\bonus\call_traits.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\bonus\compressed_pair.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\bonus\fixed_ring_buffer.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\bonus\fixed_tuple_vector.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\bonus\intrusive_sdlist.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\bonus\intrusive_slist.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\bonus\list_map.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\bonus\lru_cache.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\bonus\ring_buffer.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\bonus\sort_extra.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\bonus\tuple_vector.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\allocator_traits.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\allocator_traits_fwd_decls.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\char_traits.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\config.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\copy_help.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\enable_shared.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\fill_help.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\fixed_pool.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\function.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\function_detail.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\function_help.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\functional_base.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\generic_iterator.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\hashtable.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\in_place_t.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\integer_sequence.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\intrusive_hashtable.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\mem_fn.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\memory_base.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\move_help.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\pair_fwd_decls.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\piecewise_construct_t.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\red_black_tree.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\smart_ptr.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\thread_support.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\tuple_fwd_decls.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\type_compound.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\type_fundamental.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\type_pod.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\type_properties.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\include\EASTL\internal\type_transformations.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\source\allocator_eastl.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\source\assert.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\source\fixed_pool.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\source\hashtable.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\source\intrusive_list.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\source\numeric_limits.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\source\red_black_tree.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\source\string.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EASTL\local_3.16.05\source\thread_support.cpp" />
+  </ItemGroup>
+</Project>

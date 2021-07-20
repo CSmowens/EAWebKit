@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug' and '$(Platform)' == 'Win32'">
+    <Configuration>pc64-vc-dev-debug</Configuration>
+    <Platform>x64</Platform>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="pc64-vc-dev-debug|x64">
+      <Configuration>pc64-vc-dev-debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="pc64-vc-dev-opt|x64">
+      <Configuration>pc64-vc-dev-opt</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{616312F7-3D52-8788-1611-B1F9DB83B8A7}</ProjectGuid>
+    <Keyword>x64Proj</Keyword>
+    <ProjectName>EABase</ProjectName>
+    <UseOfStl>c++_static</UseOfStl>
+    <TargetFrameworkSDKToolsDirectory>C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\x64</TargetFrameworkSDKToolsDirectory>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <UniversalCRT_PropsPath>C:\Program Files (x86)\Windows Kits\10\DesignTime\CommonConfiguration\Neutral\uCRT.props</UniversalCRT_PropsPath>
+    <UCRTContentRoot>C:\Program Files (x86)\Windows Kits\10\</UCRTContentRoot>
+    <UniversalCRTSdkDir>C:\Program Files (x86)\Windows Kits\10\</UniversalCRTSdkDir>
+    <UniversalCRTSdkDir_10>C:\Program Files (x86)\Windows Kits\10\</UniversalCRTSdkDir_10>
+    <WindowsSdkDir>C:\Program Files (x86)\Windows Kits\10\</WindowsSdkDir>
+    <WindowsSdkDir_10>C:\Program Files (x86)\Windows Kits\10\</WindowsSdkDir_10>
+    <NETFXKitsDir>C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\</NETFXKitsDir>
+    <DotNetSdkRoot>C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\</DotNetSdkRoot>
+    <NETFXSDKDir>C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\</NETFXSDKDir>
+    <FrameworkSDKRoot>C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\</FrameworkSDKRoot>
+    <SDK40ToolsPath>C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools</SDK40ToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'pc64-vc-dev-debug|x64' " Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseNativeEnvironment>true</UseNativeEnvironment>
+    <UseDebugLibraries>False</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'pc64-vc-dev-opt|x64' " Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseNativeEnvironment>true</UseNativeEnvironment>
+    <UseDebugLibraries>False</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Condition=" '$(Configuration)|$(Platform)' == 'pc64-vc-dev-debug|x64' " Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition=" '$(Configuration)|$(Platform)' == 'pc64-vc-dev-debug|x64' ">
+    <PreBuildEvent />
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'pc64-vc-dev-debug|x64' ">
+    <OutDir>pc64-vc-dev-debug\build\EABase\</OutDir>
+    <IntDir>pc64-vc-dev-debug\build\EABase\vstmp\</IntDir>
+    <TargetName>EABase</TargetName>
+    <ExecutablePath>C:\Program Files (x86)\Windows Kits\10\bin\x64;C:\Program Files (x86)\Windows Kits\10\bin\x86;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6 Tools\x64;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6 Tools;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.28.29910\include;C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.28.29910\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um</IncludePath>
+    <ReferencePath>$(ReferencePath)</ReferencePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <SourcePath>$(SourcePath)</SourcePath>
+    <ExcludePath>$(ExcludePath)</ExcludePath>
+  </PropertyGroup>
+  <ImportGroup Condition=" '$(Configuration)|$(Platform)' == 'pc64-vc-dev-opt|x64' " Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition=" '$(Configuration)|$(Platform)' == 'pc64-vc-dev-opt|x64' ">
+    <PreBuildEvent />
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'pc64-vc-dev-opt|x64' ">
+    <OutDir>pc64-vc-dev-opt\build\EABase\</OutDir>
+    <IntDir>pc64-vc-dev-opt\build\EABase\vstmp\</IntDir>
+    <TargetName>EABase</TargetName>
+    <ExecutablePath>C:\Program Files (x86)\Windows Kits\10\bin\x64;C:\Program Files (x86)\Windows Kits\10\bin\x86;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6 Tools\x64;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6 Tools;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.28.29910\include;C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.28.29910\atlmfc\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\Include\um</IncludePath>
+    <ReferencePath>$(ReferencePath)</ReferencePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <SourcePath>$(SourcePath)</SourcePath>
+    <ExcludePath>$(ExcludePath)</ExcludePath>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EABase\local_2.09.12\include\Common\EABase\eabase.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EABase\local_2.09.12\include\Common\EABase\eahave.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EABase\local_2.09.12\include\Common\EABase\earesult.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EABase\local_2.09.12\include\Common\EABase\eastdarg.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EABase\local_2.09.12\include\Common\EABase\eaunits.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EABase\local_2.09.12\include\Common\EABase\int128.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EABase\local_2.09.12\include\Common\EABase\nullptr.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EABase\local_2.09.12\include\Common\EABase\version.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EABase\local_2.09.12\include\Common\EABase\config\eacompiler.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EABase\local_2.09.12\include\Common\EABase\config\eacompilertraits.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EABase\local_2.09.12\include\Common\EABase\config\eaplatform.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

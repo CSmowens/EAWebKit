@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="doc">
+      <UniqueIdentifier>{DFB4099A-82DA-E6E3-65E3-1092D1C3EC8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{0FEB36D4-DED9-B510-4A82-8CE6435F7E81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\EAStdC">
+      <UniqueIdentifier>{A170D044-B3AE-D191-FB80-6E8B2B5CF33B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\EAStdC\internal">
+      <UniqueIdentifier>{B2546E62-3711-2CCF-993F-7C959CEF6704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripts">
+      <UniqueIdentifier>{5A85C5D6-CF62-A432-DADB-C2831F0F295F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{F438CD36-9A9B-08FA-222C-0DC9EBFE35EB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\EAStdC.build" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\doc\Changes.html" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\doc\EAAlignment.html" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\doc\EABitTricks.html" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\doc\EAByteCrackers.html" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\doc\EACType.html" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\doc\EADateTime.html" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\doc\EAFixedPoint.html" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\doc\EAGlobal.html" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\doc\EAHash.html" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\doc\EAMathHelp.html" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\doc\EAMemory.html" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\doc\EAOSGlobal.html" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\doc\EARandom.html" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\doc\EAScanf.html" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\doc\EASprintf.html" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\doc\EAStdC Index.pdf" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\doc\EAStdC.html" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\doc\EAStopwatch.html" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\doc\EAString.html" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\doc\EATextUtil.html" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\doc\Int128_t.html" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\doc\UTFDoc.css" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\scripts\EAStdC_strip.py" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\scripts\initialize.xml" />
+    <None Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\scripts\make_public.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\EAAlignment.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\EABitTricks.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\EAByteCrackers.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\EACallback.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\EACType.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\EADateTime.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\EAEndian.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\EAFixedPoint.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\EAGlobal.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\EAHashCRC.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\EAHashString.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\EAMathHelp.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\EAMemory.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\EAProcess.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\EARandom.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\EARandomDistribution.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\EAScanf.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\EASingleton.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\EASprintf.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\EASprintfOrdered.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\EAStdC.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\EAStopwatch.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\EAString.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\EATextUtil.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\Int128_t.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\version.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\internal\Config.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\internal\IntrusiveList.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\internal\ScanfCore.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\internal\SprintfCore.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\internal\stdioEA.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\include\EAStdC\internal\Thread.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\source\EACallback.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\source\EACType.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\source\EADateTime.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\source\EAFixedPoint.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\source\EAGlobal.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\source\EAHashCRC.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\source\EAHashString.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\source\EAMemory.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\source\EAProcess.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\source\EARandom.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\source\EAScanf.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\source\EAScanfCore.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\source\EASprintf.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\source\EASprintfCore.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\source\EASprintfOrdered.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\source\EAStdC.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\source\EAStopwatch.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\source\EAString.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\source\EATextUtil.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAStdC\local_1.26.08\source\Int128_t.cpp" />
+  </ItemGroup>
+</Project>

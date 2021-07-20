@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{0FEB36D4-DED9-B510-4A82-8CE6435F7E81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\DirtySDK">
+      <UniqueIdentifier>{E8E2F31F-A4D3-ECAA-9831-2B4974940DCC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\DirtySDK\comm">
+      <UniqueIdentifier>{68657FC5-E0AE-20CC-0C3F-DD147094D6E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\DirtySDK\crypt">
+      <UniqueIdentifier>{409341DF-E118-CBF0-C953-F54FE779D376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\DirtySDK\dirtysock">
+      <UniqueIdentifier>{7FBFA43A-B97D-5A8A-EAE0-02FD6CD2AA05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\DirtySDK\game">
+      <UniqueIdentifier>{9E990550-7B68-9649-48A1-156C3549D6FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\DirtySDK\graph">
+      <UniqueIdentifier>{E7E4F13D-B84B-40CC-095C-2D8FF2D27A55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\DirtySDK\misc">
+      <UniqueIdentifier>{5618E19D-B68F-7CD2-6DA0-379D03364CC1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\DirtySDK\proto">
+      <UniqueIdentifier>{C736947E-E697-4B51-9A53-5656530476BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\DirtySDK\util">
+      <UniqueIdentifier>{250A0A45-4217-EBB4-C2B5-D6AF3E57D2C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\DirtySDK\voip">
+      <UniqueIdentifier>{7567B469-D65B-6628-4244-FDA293C57B90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\DirtySDK\xml">
+      <UniqueIdentifier>{15CC18DE-838B-BFC3-7B35-C0DAE0B295BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{F438CD36-9A9B-08FA-222C-0DC9EBFE35EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\comm">
+      <UniqueIdentifier>{C3155962-AED4-0B33-B5EE-BF74772344B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\crypt">
+      <UniqueIdentifier>{860F22F4-D9B9-9978-E786-F552D0AD058B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\dirtysock">
+      <UniqueIdentifier>{F033E939-2780-AD89-3C82-17D90D263B1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\dirtysock\pc">
+      <UniqueIdentifier>{D8B51FFA-7D84-E95B-83D6-3579653EF7BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\game">
+      <UniqueIdentifier>{8D15803A-B6DF-8C95-DE1F-237C98268C19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\graph">
+      <UniqueIdentifier>{BE74C824-F44A-24AC-ECB9-720AFA7ACFB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\misc">
+      <UniqueIdentifier>{3E88DB31-A64A-F004-CC33-2795BEEAA8F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\platform">
+      <UniqueIdentifier>{5E0F5025-1688-6B68-ACF0-B2E3A7FA0780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\proto">
+      <UniqueIdentifier>{2FD56AC4-334C-29CC-9F92-2D6FAF2A8560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\util">
+      <UniqueIdentifier>{BB1BD0B1-8BE2-73C4-EBA6-68D39CD67B77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\voip">
+      <UniqueIdentifier>{F4DC1BB9-727F-A9EC-FCF5-6EAC8BE5B54B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\voip\pc">
+      <UniqueIdentifier>{5C39034E-4220-CE53-6F45-462897B859EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\xml">
+      <UniqueIdentifier>{10A6A4AF-A054-8EA1-5732-EA6BC558959D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\dirtydefs.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\dirtylang.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\dirtysock.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\dirtyvers.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\platform.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\comm\commall.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\comm\commsrp.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\comm\commudp.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\comm\commudputil.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\crypt\cryptaes.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\crypt\cryptarc4.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\crypt\cryptbn.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\crypt\cryptchacha.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\crypt\cryptcurve.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\crypt\cryptdef.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\crypt\cryptgcm.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\crypt\crypthash.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\crypt\crypthmac.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\crypt\cryptmd5.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\crypt\cryptmont.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\crypt\cryptnist.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\crypt\cryptrand.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\crypt\cryptrsa.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\crypt\cryptsha1.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\crypt\cryptsha2.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\dirtysock\dirtyaddr.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\dirtysock\dirtycert.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\dirtysock\dirtyerr.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\dirtysock\dirtylib.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\dirtysock\dirtymem.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\dirtysock\dirtynames.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\dirtysock\dirtynet.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\dirtysock\dirtysessionmanager.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\dirtysock\dirtythread.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\dirtysock\dirtyuser.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\dirtysock\netconn.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\dirtysock\netconndefs.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\game\connapi.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\game\netgamedist.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\game\netgamedistserv.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\game\netgameerr.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\game\netgamelink.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\game\netgamepkt.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\game\netgameutil.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\graph\dirtygif.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\graph\dirtygraph.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\graph\dirtyjpg.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\graph\dirtypng.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\misc\privilegeapi.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\misc\qosclient.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\misc\qoscommon.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\misc\userapi.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\misc\userlistapi.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\misc\weblog.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\proto\protoadvt.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\proto\protohttp.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\proto\protohttp2.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\proto\protohttpmanager.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\proto\protohttpserv.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\proto\protohttputil.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\proto\protomangle.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\proto\protoname.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\proto\protossl.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\proto\protostream.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\proto\prototunnel.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\proto\protoupnp.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\proto\protowebsocket.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\util\aws.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\util\base64.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\util\binary7.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\util\hpack.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\util\jsonformat.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\util\jsonparse.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\util\murmurhash3.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\util\protobufcommon.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\util\protobufread.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\util\protobufwrite.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\util\utf8.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\voip\voip.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\voip\voipblocklist.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\voip\voipcodec.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\voip\voipdef.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\voip\voipgroup.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\voip\voipnarrate.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\voip\voiptranscribe.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\voip\voiptunnel.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\xml\xmlformat.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\include\DirtySDK\xml\xmlparse.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\crypt\cryptrandcommon.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\crypt\cryptrandpriv.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\dirtysock\dirtynetpriv.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\dirtysock\netconncommon.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\dirtysock\netconnlocaluser.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\misc\userapipriv.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\voip\voipcommon.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\voip\voipconduit.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\voip\voipconnection.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\voip\voipdvi.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\voip\voipheadset.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\voip\voipmixer.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\voip\voippacket.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\voip\voippcm.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\voip\voippriv.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\comm\commsrp.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\comm\commudp.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\comm\commudputil.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\crypt\cryptaes.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\crypt\cryptarc4.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\crypt\cryptbn.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\crypt\cryptchacha.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\crypt\cryptcurve.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\crypt\cryptgcm.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\crypt\crypthash.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\crypt\crypthmac.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\crypt\cryptmd5.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\crypt\cryptmont.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\crypt\cryptnist.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\crypt\cryptrand.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\crypt\cryptrandcommon.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\crypt\cryptrsa.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\crypt\cryptsha1.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\crypt\cryptsha2.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\dirtysock\dirtyaddr.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\dirtysock\dirtycert.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\dirtysock\dirtyerr.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\dirtysock\dirtylib.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\dirtysock\dirtylib.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\dirtysock\dirtymem.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\dirtysock\dirtynames.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\dirtysock\dirtynet.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\dirtysock\dirtythread.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\dirtysock\netconn.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\dirtysock\netconncommon.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\dirtysock\pc\dirtyerrpc.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\dirtysock\pc\dirtylibwin.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\dirtysock\pc\dirtynetwin.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\dirtysock\pc\netconnwin.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\game\connapi.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\game\netgamedist.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\game\netgamedistserv.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\game\netgamelink.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\game\netgameutil.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\graph\dirtygif.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\graph\dirtygraph.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\graph\dirtyjpg.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\graph\dirtypng.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\misc\qosclient.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\misc\qoscommon.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\misc\weblog.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\platform\plat-str.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\platform\plat-time.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\proto\protoadvt.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\proto\protohttp.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\proto\protohttp2.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\proto\protohttpmanager.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\proto\protohttpserv.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\proto\protohttputil.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\proto\protomangle.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\proto\protoname.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\proto\protossl.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\proto\protostream.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\proto\prototunnel.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\proto\protoupnp.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\proto\protowebsocket.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\util\aws.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\util\base64.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\util\binary7.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\util\hpack.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\util\jsonformat.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\util\jsonparse.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\util\murmurhash3.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\util\protobufcommon.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\util\protobufread.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\util\protobufwrite.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\util\utf8.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\voip\voip.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\voip\voipblocklist.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\voip\voipcodec.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\voip\voipcommon.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\voip\voipconduit.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\voip\voipconnection.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\voip\voipdvi.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\voip\voipgroup.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\voip\voipmixer.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\voip\voippcm.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\voip\voiptranscribe.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\voip\voiptunnel.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\voip\pc\voipheadsetpc.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\voip\pc\voipnarratepc.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\voip\pc\voippc.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\xml\xmlformat.c" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\DirtySDK\local_15.1.6.0.2\source\xml\xmlparse.c" />
+  </ItemGroup>
+</Project>

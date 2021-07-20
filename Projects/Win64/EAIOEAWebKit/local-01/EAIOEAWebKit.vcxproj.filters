@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{0FEB36D4-DED9-B510-4A82-8CE6435F7E81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\EAIO">
+      <UniqueIdentifier>{556AE4CC-8D87-E1CB-8475-3AC03E964CC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\EAIO\internal">
+      <UniqueIdentifier>{965B0226-031A-937D-12C9-DCE323F2BC5F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\EAIO\StdC">
+      <UniqueIdentifier>{B98624E6-B0BB-1420-3AAB-3462CF4F9962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\EAIO\Unix">
+      <UniqueIdentifier>{75C1DD21-93F9-57E8-A6D4-0D1B2F08009E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\EAIO\Win32">
+      <UniqueIdentifier>{212CF3B5-658F-9278-28BE-F2A1D005E2F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{F438CD36-9A9B-08FA-222C-0DC9EBFE35EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\internal">
+      <UniqueIdentifier>{0507DC95-253D-2470-6433-CE87F971582B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\include\EAIO\Allocator.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\include\EAIO\EAFileBase.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\include\EAIO\EAFileDirectory.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\include\EAIO\EAFileNotification.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\include\EAIO\EAFileStream.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\include\EAIO\EAFileUtil.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\include\EAIO\EAIniFile.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\include\EAIO\EAStream.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\include\EAIO\EAStreamAdapter.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\include\EAIO\EAStreamBuffer.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\include\EAIO\EAStreamChild.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\include\EAIO\EAStreamCpp.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\include\EAIO\EAStreamFixedMemory.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\include\EAIO\EAStreamMemory.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\include\EAIO\EAStreamNull.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\include\EAIO\FnEncode.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\include\EAIO\FnMatch.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\include\EAIO\PathString.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\include\EAIO\internal\Config.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\include\EAIO\internal\EAIOEARefCount.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\include\EAIO\internal\EAIOEASTLCoreAllocator.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\include\EAIO\internal\EAIOZoneObject.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\include\EAIO\StdC\EAFileStreamStdC.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\include\EAIO\Unix\EAFileStreamUnix.h" />
+    <ClInclude Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\include\EAIO\Win32\EAFileStreamWin32.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\source\Allocator.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\source\EAFileDirectory.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\source\EAFileNotification.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\source\EAFileStream.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\source\EAFileUtil.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\source\EAIniFile.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\source\EAStreamAdapter.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\source\EAStreamBuffer.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\source\EAStreamChild.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\source\EAStreamCpp.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\source\EAStreamFixedMemory.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\source\EAStreamMemory.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\source\EAStreamNull.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\source\FnEncode.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\source\FnMatch.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\source\PathString.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\source\internal\EAIOCoreAllocator.cpp" />
+    <ClCompile Include="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local-01\source\internal\EAIOZoneObject.cpp" />
+  </ItemGroup>
+</Project>
