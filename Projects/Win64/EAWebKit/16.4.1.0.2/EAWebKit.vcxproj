@@ -123,10 +123,10 @@
 @if not exist "pc64-vc-dev-debug\bin" mkdir "pc64-vc-dev-debug\bin" &amp; SET ERRORLEVEL=0
 @if not exist "pc64-vc-dev-debug\build\EAWebKit" mkdir "pc64-vc-dev-debug\build\EAWebKit" &amp; SET ERRORLEVEL=0
 @if not exist "pc64-vc-dev-debug\lib" mkdir "pc64-vc-dev-debug\lib" &amp; SET ERRORLEVEL=0
-@if not exist "pc64-vc-dev-debug\lib" mkdir "pc64-vc-dev-debug\lib" &amp; SET ERRORLEVEL=0</Command>
+@if not exist pc64-vc-dev-debug\lib mkdir pc64-vc-dev-debug\lib &amp; SET ERRORLEVEL=0</Command>
     </PreBuildEvent>
     <PostBuildEvent>
-      <Command>if exist "pc64-vc-dev-debug/bin/EAWebKitd.dll" (%SystemRoot%\system32\xcopy "pc64-vc-dev-debug/bin/EAWebKitd.dll" "pc64-vc-dev-debug/bin/EAWebKitd.dll is missing.)</Command>
+      <Command>@if not exist pc64-vc-dev-debug\lib mkdir pc64-vc-dev-debug\lib &amp; SET ERRORLEVEL=0</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'pc64-vc-dev-debug|x64' ">
@@ -200,7 +200,7 @@
       <SuppressStartupBanner>TRUE</SuppressStartupBanner>
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
-    <Manifest>
+        <Manifest>
       <OutputManifestFile>pc64-vc-dev-opt\build\EAWebKit\EAWebKit.dll.embed.manifest</OutputManifestFile>
     </Manifest>
     <ManifestResourceCompile>
@@ -213,10 +213,10 @@
 @if not exist "pc64-vc-dev-opt\bin" mkdir "pc64-vc-dev-opt\bin" &amp; SET ERRORLEVEL=0
 @if not exist "pc64-vc-dev-opt\build\EAWebKit" mkdir "pc64-vc-dev-opt\build\EAWebKit" &amp; SET ERRORLEVEL=0
 @if not exist "pc64-vc-dev-opt\lib" mkdir "pc64-vc-dev-opt\lib" &amp; SET ERRORLEVEL=0
-@if not exist "pc64-vc-dev-opt\lib" mkdir "pc64-vc-dev-opt\lib" &amp; SET ERRORLEVEL=0</Command>
+@if not exist pc64-vc-dev-opt\lib mkdir pc64-vc-dev-opt\lib &amp; SET ERRORLEVEL=0</Command>
     </PreBuildEvent>
     <PostBuildEvent>
-      <Command>if exist "pc64-vc-dev-opt/bin/EAWebKit.dll" (%SystemRoot%\system32\xcopy "pc64-vc-dev-opt/bin/EAWebKit.dll" "dev-opt/bin" /f /y) else ( echo pc64-vc-dev-opt/bin/EAWebKit.dll is missing.)</Command>
+      <Command>@if not exist pc64-vc-dev-opt\lib mkdir pc64-vc-dev-opt\lib &amp; SET ERRORLEVEL=0</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'pc64-vc-dev-opt|x64' ">
